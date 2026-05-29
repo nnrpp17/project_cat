@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <title>แนะนำคลินิกแมว</title>
+
+    <style>
+        body {
+            font-family: "Kanit", sans-serif;
+            background-color: rgb(255, 252, 203);
+        }
+
+        nav {
+            background-color: #ff7ac8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: medium;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(112, 2, 2);
+        }
+
+        header {
+            text-align: left;
+            padding: 100px 0;
+            color: rgb(0, 0, 0);
+        }
+
+        section {
+            font-family: "Kanit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        footer {
+            background-color: rgb(243, 170, 86);
+            padding: 40px 0;
+        }
+
+        .dropdown {
+            color: rgb(253, 255, 156);
+        }
+
+        aside {
+            width: 28%;
+            margin-left: 1em;
+        }
+
+        .clinic {
+            text-align: center;
+            font-family: "Kanit", sans-serif;
+            color: rgb(0, 0, 0);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(248, 243, 243);
+        }
+
+
+        .header-container {
+            background-image: url(img/banner10.png);
+            background-position: center;
+            background-size: auto;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="komnerd.html">ต้นกำเนิด</a>
+        <a href="saiphun.html">สายพันธุ์</a>
+        <a href="pagecat.html">แมวหาบ้าน</a>
+        <a href="cafe.html">คาเฟ่แมว</a>
+
+        <div class="dropdown">
+            <button class="btn data-bs-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <b style="color: white;">การดูแลแมว</b>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="care.html">สิ่งจำเป็นในการเลี้ยงแมว</a></li>
+                <li><a class="dropdown-item" href="rokk.html">โรคประจำสายพันธุ์</a></li>
+                <li><a class="dropdown-item" href="waksence.html">วัคซีนที่จำเป็น</a></li>
+                <li><a class="dropdown-item" href="clinic.html">แนะนำคลิกนิก</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <header class="header-container"></header>
+
+    <div class="clinic">
+        <h1 style="font-family:  Kanit,sans-serif; color: hotpink;"><u>แนะนำคลินิกและโรงพยาบาลสัตว์ใน จ.พิษณุโลก</u></h1>
+        <br>
+        <h4 style="font-family:  Kanit,sans-serif; color: rgb(67, 169, 228)"><b>1.โรงพยาบาลสัตว์กิตติคุณ </b></h4>
+        <br><img src="img/clinic11.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <h10>เป็นโรงพยาบาลสัตว์ในตัวเมือง ที่รักษาน้องแมวและสัตว์อื่นๆ เปิด 24 ชั่วโมง
+            มีการทำความสะอาดฆ่าเชื้อภายในโรงพยาบาลอยู่ตลอด</h10><br>
+
+        <br><img src="img/clinic1.jpg" width="600" height="350" alt=".."><br>
+        <br><img src="img/clinic12.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.5918080918455!2d100.25477737412727!3d16.79697201954731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dfbd7f7e1fdda3%3A0xc86c9c7a5fe78116!2sKittikun%20Pet%20Hospital%2024%20Hr%20Phitsanulok!5e0!3m2!1sen!2sth!4v1709522836066!5m2!1sen!2sth"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <UL type="circle" style="text-align: left;">
+            <LI>พิกัด : <a
+                    href="https://maps.app.goo.gl/eCiFV48SZWJFBXb48">https://maps.app.goo.gl/eCiFV48SZWJFBXb48</a>
+            <LI>เปิดบริการ : 24 ชั่วโมง
+            <LI>โทร : 081 474 9900
+            <LI>เว็บไซต์ : <a
+                    href="https://www.facebook.com/profile.php?id=100063995412451&locale=th_TH">https://www.facebook.com/profile.php?id=100063995412451&locale=th_TH</a>
+        </UL>
+        <hr>
+
+        <br>
+        <h4 style="font-family:  Kanit,sans-serif; color: rgb(67, 169, 228)"><b>2.คลินิกปันสุขรักษาสัตว์ </b></h4>
+        <br><img src="img/clinic21.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <h10>เป็นคลินิกที่ราคาย่อมเยาว์ คุณหมอน่ารัก ใจดี คลินิกสะอาดมีห้องแอร์ในการรอคิวด้วย
+            คุณหมอตรวจละเอียดรอคิวไม่นาน มีทั้งทำหมัน ฉีดวัคซีน รวมไปถึงรับฝากแมวด้วย</h10><br>
+
+        <br><img src="img/clinic2.jpg" width="600" height="350" alt=".."><br>
+        <br><img src="img/clinic22.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.7044605668675!2d100.22657598094419!3d16.791373013231333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dfbda5f449d1f5%3A0xf783e808f6f28b09!2z4Lib4Lix4LiZ4Liq4Li44LiC4Lij4Lix4LiB4Lip4Liy4Liq4Lix4LiV4Lin4LmM!5e0!3m2!1sen!2sth!4v1709523538765!5m2!1sen!2sth"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <UL type="circle" style="text-align: left;">
+            <LI>พิกัด : <a
+                    href="https://maps.app.goo.gl/m8r4bA3Ue1npngJ67">https://maps.app.goo.gl/m8r4bA3Ue1npngJ67</a>
+            <LI>เปิดบริการ : ทุกวัน เวลา 09:00 - 20:00
+            <LI>โทร : 089 708 2506
+            <LI>เว็บไซต์ : <a
+                    href="https://www.facebook.com/punsookpetclinic/">https://www.facebook.com/punsookpetclinic/</a>
+        </UL>
+        <hr>
+
+        <h4 style="font-family:  Kanit,sans-serif; color: rgb(67, 169, 228)"><b>3.หมอเอฟ บุญญเกียรติสัตวเเพทย์ </b></h4>
+        <br><img src="img/clinic3.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <h10>คลินิกรักษาสัตว์ราคาถูก คุณหมอใจดีมาก บางครั้งมีการจัดฉีดวัคซ๊นพิษสุนัขบ้าให้ฟรีด้วย
+            สามารถติดตามทางเพจเฟสบุ๊คไว้ได้</h10><br>
+
+        <br><img src="img/clinic31.jpg" width="600" height="350" alt=".."><br>
+        <br><img src="img/clinic32.jpg" width="600" height="350" alt=".."><br>
+
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.5972795850666!2d100.25551477412728!3d16.79670011955488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dfbd7f87911c9d%3A0x925598152175563c!2z4Lir4Lih4Lit4LmA4Lit4Lif4Lia4Li44LiN4LiN4LmA4LiB4Li14Lii4Lij4LiV4Li04Liq4Lix4LiV4Lin4LmA4LmA4Lie4LiX4Lii4LmM!5e0!3m2!1sen!2sth!4v1709524260948!5m2!1sen!2sth"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <UL type="circle" style="text-align: left;">
+            <LI>พิกัด : <a
+                    href="https://maps.app.goo.gl/4qSRnCjTD2ksxykg7">https://maps.app.goo.gl/4qSRnCjTD2ksxykg7</a>
+            <LI>เปิดบริการ : วันจันทร์-วันเสาร์ เวลา 09:00 - 20:00 น. , วันอาทิตย์ เวลา 09:00 - 12:00 น.
+            <LI>โทร : 088-9045085
+            <LI>เว็บไซต์ : <a
+                    href="https://www.facebook.com/profile.php?id=100057535805598">https://www.facebook.com/profile.php?id=100057535805598</a>
+        </UL>
+        <hr>
+
+        <br>
+        <h4 style="font-family:  Kanit,sans-serif; color: rgb(67, 169, 228)"><b>4.โต้งสัตวแพทย์ </b></h4>
+        <br><iframe
+            src="https://www.google.com/maps/embed?pb=!4v1709524721068!6m8!1m7!1sZHAimnaatknncHwgg_eUVA!2m2!1d16.81469085671637!2d100.2564757888454!3f267.85872131953704!4f-1.4670773755625959!5f0.7820865974627469"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+        <br>
+        <h10>คุณหมอเก่งเรื่องทำหมันมากๆ ใครที่อยู่ในตัวเมือง แล้วอยากทำหมันสัตว์เลี้ยง แนะนำมาที่นี่เลยค่ะ
+            ราคาสบายกระเป๋า</h10><br>
+
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4541.8533996550295!2d100.25368962264794!3d16.815029459819797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30dfbd61157dc299%3A0xab91bf302180d82a!2z4LmC4LiV4LmJ4LiHIOC4quC4seC4leC4p-C5geC4nuC4l-C4ouC5jA!5e0!3m2!1sen!2sth!4v1709524641008!5m2!1sen!2sth"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <UL type="circle" style="text-align: left;">
+            <LI>พิกัด : <a
+                    href="https://maps.app.goo.gl/YineK45yUkjThwGL6">https://maps.app.goo.gl/YineK45yUkjThwGL6</a>
+            <LI>เปิดบริการ : ทุกวัน เวลา 10:00 - 20:00
+            <LI>โทร : 055 252 134
+            <LI>เว็บไซต์ : <a href="https://www.facebook.com/tongvet.spl">https://www.facebook.com/tongvet.spl</a>
+        </UL>
+        <hr>
+
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h3><b>Contact us</b></h3>
+                    <p>Naruephon Kongarsa</p>
+                    <p>Parichat Thongbai</p>
+                    <p>Faculty of Science, Information Technology branch</p>
+                    <p>Naresuan University</p>
+                </div>
+                <div class="col d-flex flex-column justify-content-start">
+                    <h3><b>Get in Touch</b></h3>
+                    <p><i class="bi bi-houses fs-3 align-self-start"></i> Naresuan University , Phitsanulok Province
+                    </p>
+                    <p><i class="bi bi-telephone fs-3 align-self-start"></i> 080-820-0345 , 082-480-7209</p>
+                    <p><i class="bi bi-envelope-open fs-3 align-self-start"></i> nnrpp17@gmail.com ,
+                        parichatt2947@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
